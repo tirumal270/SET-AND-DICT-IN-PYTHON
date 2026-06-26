@@ -15,9 +15,12 @@ dict={'name':"ram",'age':20,"accupation":"doctor"}
 print(dict)
 dict.update({"location":"hyderabad"})
 print(dict)
+# UPDATE AGE
 dict["age"]=30
 print(dict)
+# PRINT OCCUPATION
 print(dict["accupation"])
+print(dict)
 
 def remove_duplicates(numbrs):
     return set(numbers)
